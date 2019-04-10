@@ -1,0 +1,63 @@
+table,th,td{
+    border: 1px aquamarine;
+    width: 100%
+}
+
+section{
+    
+}
+
+header, main, footer, aside, article{
+    border: 1px solid red;  
+    margin:10px;
+    padding: 5px;
+    border-radius: 1px;
+}
+
+body{
+    display:grid;
+    grid-template-columns: repeat(6, lfr);
+}
+
+footer {
+    grid-column: 1 / 6;
+    grid-row: 4;
+}
+
+main{ 
+    grid-column: 1 / 5;
+    grid-row: 2;
+    grid-gap: 5px;
+}
+
+header { 
+    grid-column: 1 / 6;
+    grid-row: 1;
+}
+
+main{
+    margin-top:10px;
+    background-color: lightgray;
+}
+
+article {
+    color: blue;
+    background-color: lightgoldenrodyellow; 
+}
+
+header {color: green;
+background-color: lightgray;
+}
+
+footer{
+    color: green;
+    background-color: lightgray;
+   
+}
+aside{
+    color: green;
+    background-color: lightgray;
+    grid-column: 5 / 6;
+    grid-row: 2;
+}
+
