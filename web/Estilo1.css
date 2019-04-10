@@ -1,17 +1,27 @@
-table,th,td{
-    border: 1px aquamarine;
-    width: 100%
+th,td{
+    border: 1px solid white;
 }
 
+td:nth-child (even){
+    background-color: solid white;    
+}
 
-    
+table{
+    width: 100%;
+    margin: 10px;
+    border-radius: 0px;
+}
 
+section{
+    display:grid;
+    grid-template-columns: repeat (1, 1fr);
+}
 
 header, main, footer, aside, article{
-    border: 1px solid red;  
-    margin:10px;
-    padding: 5px;
-    border-radius: 1px;
+    border: 1px solid white;  
+    margin:30px;
+    padding: 10px;
+    border-radius: 0px;
 }
 
 body{
@@ -37,7 +47,7 @@ header {
 
 main{
     margin-top:10px;
-    background-color: lightgray;
+    background-color: darksalmon;
 }
 
 article {
@@ -45,18 +55,19 @@ article {
     background-color: lightgoldenrodyellow; 
 }
 
-header {color: green;
-background-color: lightgray;
+header {
+    color: black;
+    background-color: pink;
 }
 
 footer{
-    color: green;
-    background-color: lightgray;
-   
+    color: black;
+    background-color: pink;
+
 }
 aside{
     color: green;
-    background-color: lightgray;
+    background-color: darksalmon;
     grid-column: 5 / 6;
     grid-row: 2;
 }
