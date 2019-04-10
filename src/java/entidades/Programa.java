@@ -3,8 +3,15 @@ package entidades;
 public class Programa {
 
     public static void main(String[] args) {
+        
         //Carga de productos
-        Productos articulo1;
+        //generalmente se encuentra como "Productos articulo1 = new Productos();"
+        
+        Productos articulo1 = new Productos("Lapiz", "HB Negro");
+        Productos articulo2 = new Productos("Cuaderno", "Tapa dura, rayado", 100);
+        
+        
+        /* Productos articulo1;
         articulo1 = new Productos();
         articulo1.nombre = "Lapiz";
         articulo1.descripcion = "HB Negro";
@@ -27,6 +34,7 @@ public class Programa {
         articulo4.nombre = "Goma";
         articulo4.descripcion = "Blanca";
         articulo4.precio = 15;
+                
 
         System.out.println(articulo1.nombre + " " + articulo1.nombre + " " + articulo1.descripcion + " " + articulo1.precio);
 
@@ -35,7 +43,10 @@ public class Programa {
         System.out.println(articulo3.nombre + " " + articulo3.nombre + " " + articulo3.descripcion + " " + articulo3.precio);
         
         System.out.println(articulo4.nombre + " " + articulo4.nombre + " " + articulo4.descripcion + " " + articulo4.precio);
-
+*/
+        System.out.println(articulo1);
+        System.out.println(articulo2);
+        
         System.out.println("OK");
     }
 
